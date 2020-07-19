@@ -3,12 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css">
   <title>Mobile Menu</title>
 </head>
 <body>
+  <a href="#" id="menu" onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
   <ul class="nav-list active">
-    <li class="nav-item">Home</li>
+    <li class="nav-item dismiss" onclick="toggleMenu()"><i class="fa fa-times"></i></li>
     <li class="nav-item">Home</li>
     <li class="nav-item">About</li>
     <li class="nav-item">Portfolio</li>
