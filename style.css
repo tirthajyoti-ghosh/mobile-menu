@@ -8,9 +8,14 @@ html, body {
   height: 100%;
 }
 
-#menu {
+.menu-icon {
   position: absolute;
   right: 0;
+  z-index: -999;
+}
+
+.menu-icon.hidden {
+  display: none;
 }
 
 .fa-bars {
@@ -29,7 +34,7 @@ html, body {
 }
 
 .nav-list.active {
-  /* height: 70%; */
+  height: 70%;
 }
 
 .nav-list .nav-item {
